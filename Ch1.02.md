@@ -60,9 +60,11 @@
     - Set earlier layers to 3x-10x lower learning rate than next higher layer
     - Use lr_find() again
     - Train full network with cycle_mult=2 until over-fitting
-  - Visualize results
+    - [o] Increase image size for additional data augmentation
+  - Analyze results
   
 - To get better results 
   - rerun the training with validation set as well
-  -   
+  - increase size at the start (as opposed to during training)  
+  - more sophisticated architecture
   
