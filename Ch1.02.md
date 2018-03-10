@@ -38,8 +38,8 @@
   - = 2 => doubling length of cycle
 
 - 3 parameters
-  - # of cycles
-  - # of epochs per cycle
+  - number of cycles
+  - number of epochs per cycle
   - cycle_mult
 
 - Test-time Data Augmentation
@@ -61,4 +61,8 @@
     - Use lr_find() again
     - Train full network with cycle_mult=2 until over-fitting
   - Visualize results
-    -
+  
+- To get better results 
+  - rerun the training with validation set as well
+  -   
+  
