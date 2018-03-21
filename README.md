@@ -2,7 +2,7 @@
 
 ## Prep
 - Update fastai library: https://github.com/fastai/fastai/tree/master/fastai -> fastai 
-- ln -s ~/data ~/c-fastai/data; kaggle download to ~/data/__competetion__
+- ln -s ~/data ~/c-fastai/data
 - cd ~/ wget http://files.fast.ai/models/weights.tgz; tar -xvf weights.tgz; ln -s ~/weights ./fastai/weights
 - TODO: anaconda environment (refer paperspace doc in azuresetup.md)
 
@@ -15,7 +15,8 @@
 - ssh -L 8888:127.0.0.1:8888 partho@52.225.250.170
 - [Resuming ssh session](https://askubuntu.com/questions/191573/how-can-i-reconnect-to-a-ssh-session-after-a-broken-pipe)
 - Is GPU being used? watch nvidia-smi -q -g 0 -d UTILIZATION -l
-- http://wiki.fast.ai/index.php/Kaggle_CLI
+- [kaggle](https://github.com/Kaggle/kaggle-api)
+
 
 ## Jupyter shortcuts
 - Ctrl + Shift + P: Command palette
@@ -32,9 +33,9 @@
 
 ## todo
 v dogbreed running on azure
-o finish notes for ch 02
-x what is missing from the template in dogbreed?
-- switch to local box
-- smaller data set?
-- How to analyze results?
-- Another sample with full 
+v finish notes for ch 02
+o Read up
+  - https://towardsdatascience.com/galaxy-zoo-classification-with-keras-219184aff581
+  - http://benanne.github.io/2014/04/05/galaxy-zoo.html
+  - how to model the problem?
+o whale challenge
